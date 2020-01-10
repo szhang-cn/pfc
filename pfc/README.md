@@ -6,6 +6,8 @@ https://github.com/petenez/pfc
 
 在运行PFC代码之前，需要事先安装MPI和FFTW。
 
+注意：安装FFTW时使用./configure --prefix=/home-amefs/zhangs/.software/fftw --enable-mpi，安装带有mpi的FFTW。
+
 将src和example文件放入同一个文件夹中。
 
 进入src文件夹中，使用以下命令来进行PFC的编译
