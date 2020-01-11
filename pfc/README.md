@@ -6,7 +6,7 @@ https://github.com/petenez/pfc
 
 在运行PFC代码之前，需要事先安装MPI和FFTW。
 
-注意：安装FFTW时使用./configure --prefix=/dir-fftw --enable-mpi，安装带有mpi的FFTW。
+注意：安装FFTW时使用$ ./configure --prefix=/dir-fftw --enable-mpi，安装带有mpi的FFTW。
 
 将src和example文件放入同一个文件夹中。
 
@@ -76,7 +76,7 @@ I	2		step1-t:10000.dat	-0.072	0.1
 ```
 
 注意：1、'step1.in'和'step2.in'的尺寸需要相同，同时吻合下面Java工具中设定的尺寸；
-     2、将W和H设置为1024 * 1024，实际大小约为243 nm。
+     2、将W和H设置为1024 * 1024，实际大小约为24.3 nm。
 
 
 ### Java tool
